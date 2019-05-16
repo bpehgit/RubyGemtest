@@ -10,9 +10,6 @@ class BpehtestPalindromeTest < Minitest::Test
     assert "racecar".palindrome?
   end
 
-  def test_literal_palindrome
-    assert "naannaan".palindrome?
-  end
 
   def test_mixed_case_palindrome
     skip
